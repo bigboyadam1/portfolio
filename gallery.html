@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY // ADAM MOSES</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+    <div class="scanlines"></div>
+
+    <div class="layout-grid">
+
+        <aside class="sidebar">
+            <div>
+                <a href="site.html" style="text-decoration: none; color: inherit;">
+                    <div class="tag">BACK TO SYSTEM</div>
+                </a>
+                <div style="margin-top: 2rem;">
+                    <h3 style="font-weight: 600;">Full Archive</h3>
+                    <p class="mono" style="margin-top: 5px;">STREET PHOTOGRAPHY</p>
+                </div>
+            </div>
+
+            <div class="mono">
+                <p>MEMORY INDEX: <span id="scroll-speed">0.00</span></p>
+                <p>STATUS: ARCHIVE VIEW</p>
+                <p>&copy; 2025 ALL RIGHTS RESERVED</p>
+            </div>
+        </aside>
+
+        <main class="content-area">
+
+            <div class="nav-status">
+                <span class="mono">[ ADAM MOSES ]</span>
+                <span class="mono" id="clock">00:00:00 UTC</span>
+                <span class="mono">GALLERY ARCHIVE</span>
+            </div>
+
+            <div class="section-header">
+                <span class="mono">/// COMPLETE ASSET LIST</span>
+            </div>
+
+            <div class="gallery-preview"
+                style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); padding: var(--spacing);">
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763143047000_R0008441.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763143074000_R0008442.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763158623000_R0008471.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763215653000_R0008494.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763222041000_R0008546.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763223925000_R0008562.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763224520000_R0008574.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763224600000_R0008576.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763252033000_R0008599.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763301388000_R0008623.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763301423000_R0008624.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763305030000_R0008656.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/R0008684.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/R0008693.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/R0008711.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/R0008722.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/R0008732.JPG" alt="Street Photo">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/R0008736.JPG" alt="Street Photo">
+                </div>
+            </div>
+
+            <footer style="padding: 4rem var(--spacing); border-top: 1px solid var(--grid-line);">
+                <a href="site.html" class="mono" style="text-decoration: underline; font-size: 1.2rem;">BACK TO HOME</a>
+            </footer>
+
+        </main>
+
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-close" id="lightbox-close">[ CLOSE ]</div>
+            <img id="lightbox-img" src="" alt="Full View">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

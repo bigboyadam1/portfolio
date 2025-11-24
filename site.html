@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTEM // ADAM MOSES</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="cursor"></div>
+    <div class="scanlines"></div>
+
+    <div class="layout-grid">
+
+        <aside class="sidebar">
+            <div>
+                <div class="tag">SYS.ID: ADAM_MOSES</div>
+                <div class="languages-dropdown">
+                    <div class="languages-header tag" onclick="toggleLanguages()">SPOKEN LANGUAGES ▼</div>
+                    <div class="languages-content" id="languagesContent">
+                        <div class="language-item">English — Native</div>
+                        <div class="language-item">French — Conversational Fluency</div>
+                        <div class="language-item">Mandarin — Beginner</div>
+                    </div>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <p class="mono" style="margin-bottom: 8px; font-size: 0.85rem;">CURRENT ROLE</p>
+                    <h3 style="font-weight: 600; font-size: 1.3rem; line-height: 1.3;">Analyst at<br><span
+                            style="color: var(--accent-color);">Barclays</span></h3>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <p class="mono" style="margin-bottom: 8px; font-size: 1rem;">SIDE PROJECT</p>
+                    <h3 style="font-weight: 600; font-size: 1.5rem; line-height: 1.3;">Co-Founder at<br><span
+                            style="color: var(--accent-color);">Orbit
+                            Labs</span></h3>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <p class="mono" style="margin-bottom: 8px; font-size: 1rem;">SIDE PROJECT</p>
+                    <h3 style="font-weight: 600; font-size: 1.5rem; line-height: 1.3;">Growth at<br><span
+                            style="color: var(--accent-color);">Linkscan</span>
+                    </h3>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <p class="mono" style="margin-bottom: 8px; font-size: 0.85rem;">LOCATION</p>
+                    <h3 style="font-weight: 600; font-size: 1.3rem;">Liverpool, UK</h3>
+                </div>
+                <div style="margin-top: 2rem;">
+                    <p class="mono" style="margin-bottom: 8px; font-size: 0.85rem;">CONTACT</p>
+                    <a href="mailto:adam@orbitlabs.xyz"
+                        style="text-decoration: none; color: inherit; display: block; margin-bottom: 0.5rem;">
+                        <h3 style="font-weight: 600; font-size: 1rem; transition: color 0.3s ease;"
+                            class="contact-link">adam@orbitlabs.xyz</h3>
+                    </a>
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <p class="mono" style="margin-bottom: 8px; font-size: 0.85rem;">INSTAGRAM</p>
+                    <a href="https://instagram.com/adammoses_" target="_blank"
+                        style="text-decoration: none; color: inherit; display: block; margin-bottom: 0.5rem;">
+                        <p class="mono contact-link" style="font-size: 0.75rem; transition: color 0.3s ease;">
+                            @adammoses_ — F&F</p>
+                    </a>
+                    <a href="https://instagram.com/mose.smoments" target="_blank"
+                        style="text-decoration: none; color: inherit; display: block;">
+                        <p class="mono contact-link" style="font-size: 0.75rem; transition: color 0.3s ease;">
+                            @mose.smoments — Photo</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mono" style="font-size: 0.8rem; line-height: 1.6;">
+                <p>SCROLL SPEED: <span id="scroll-speed">0.00</span></p>
+                <p>STATUS: DEPLOYED</p>
+                <p>&copy; 2025 ALL RIGHTS RESERVED</p>
+            </div>
+        </aside>
+
+        <main class="content-area">
+
+            <div class="nav-status">
+                <span class="mono">[ ADAM MOSES ]</span>
+                <span class="mono" id="clock">00:00:00 UTC</span>
+            </div>
+
+            <div style="padding: 4rem var(--spacing) 2rem var(--spacing); border-bottom: 1px solid var(--grid-line);">
+                <h1 class="hero-name"
+                    style="font-size: clamp(3rem, 6vw, 6rem); margin-bottom: 1rem; font-weight: 800; transition: color 0.3s ease;">
+                    ADAM MOSES</h1>
+                <p style="max-width: 600px; font-size: 1.2rem; line-height: 1.5; color: #444; margin-bottom: 3rem;">
+                    Trying to do everything, all at once.
+                </p>
+                <div class="mono" style="margin-bottom: 1rem;">// SYSTEM LOG: FAVOURITE LINES</div>
+                <h1 id="hero-quote">
+                    System<br>Architecture<br>for Growth
+                </h1>
+            </div>
+
+            <!-- Spotify Removed -->
+
+            <div class="section-header">
+                <span class="mono">/// DEPLOYED PROJECTS & ARCHIVE</span>
+            </div>
+
+            <div class="data-list">
+
+                <a href="https://orbitlabs.xyz" style="text-decoration: none; color: inherit;" class="data-block">
+                    <div class="data-block-header">
+                        <span class="tag">STARTUP</span>
+                        <span class="mono">01</span>
+                    </div>
+                    <h2 class="data-block-title" style="color: var(--accent-color);">Orbit Labs <span class="mono"
+                            style="font-size: 0.9rem;">(Co-Founder)</span></h2>
+                    <p class="mono" style="margin-top: 0.5rem; color: #555;">Focus: Decentralized Finance / System
+                        Strategy. Project Link: orbitlabs.xyz</p>
+                </a>
+
+                <div class="data-block">
+                    <div class="data-block-header">
+                        <span class="tag">SAAS</span>
+                        <span class="mono">02</span>
+                    </div>
+                    <h2 class="data-block-title" style="color: var(--accent-color);">Growth at Linkscan</h2>
+                    <p class="mono" style="margin-top: 0.5rem; color: #555;">linkscan.org — QR codes with real-time
+                        analytics and privacy protection</p>
+                </div>
+
+                <div class="data-block">
+                    <div class="data-block-header">
+                        <span class="tag">CORPORATE</span>
+                        <span class="mono">03</span>
+                    </div>
+                    <h2 class="data-block-title">Technology Analyst Intern</h2>
+                    <p class="mono" style="margin-top: 0.5rem; color: #555;">Barclays, 2023</p>
+                </div>
+
+                <div class="data-block">
+                    <div class="data-block-header">
+                        <span class="tag">FREELANCE</span>
+                        <span class="mono">04</span>
+                    </div>
+                    <h2 class="data-block-title">Marketing at MoonPay</h2>
+                    <p class="mono" style="margin-top: 0.5rem; color: #555;">Consulting on Reddit marketing strategy.
+                        2021.</p>
+                </div>
+
+            </div>
+
+            <div class="section-header">
+                <span class="mono">/// FAVORITE DATA INPUTS (BOOKS)</span>
+            </div>
+
+            <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
+            <style type="text/css" media="screen">
+                .gr_custom_container_1764025369 {
+                    /* customize your Goodreads widget container here*/
+                    border: 1px solid gray;
+                    border-radius: 10px;
+                    padding: 10px 5px 10px 5px;
+                    background-color: #FFFFFF;
+                    color: #000000;
+                    width: 300px
+                }
+
+                .gr_custom_header_1764025369 {
+                    /* customize your Goodreads header here*/
+                    border-bottom: 1px solid gray;
+                    width: 100%;
+                    margin-bottom: 5px;
+                    text-align: center;
+                    font-size: 120%
+                }
+
+                .gr_custom_each_container_1764025369 {
+                    /* customize each individual book container here */
+                    width: 100%;
+                    clear: both;
+                    margin-bottom: 10px;
+                    overflow: auto;
+                    padding-bottom: 4px;
+                    border-bottom: 1px solid #aaa;
+                }
+
+                .gr_custom_book_container_1764025369 {
+                    /* customize your book covers here */
+                    overflow: hidden;
+                    height: 60px;
+                    float: left;
+                    margin-right: 4px;
+                    width: 39px;
+                }
+
+                .gr_custom_author_1764025369 {
+                    /* customize your author names here */
+                    font-size: 10px;
+                }
+
+                .gr_custom_tags_1764025369 {
+                    /* customize your tags here */
+                    font-size: 10px;
+                    color: gray;
+                }
+
+                .gr_custom_rating_1764025369 {
+                    /* customize your rating stars here */
+                    float: right;
+                }
+            </style>
+
+            <div id="gr_custom_widget_1764025369">
+                <div class="gr_custom_container_1764025369">
+                    <h2 class="gr_custom_header_1764025369">
+                        <a style="text-decoration: none;" rel="nofollow"
+                            href="https://www.goodreads.com/review/list/128992373-adam-moses?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Adam&#39;s
+                            Favourites</a>
+                    </h2>
+                    <div class="gr_custom_each_container_1764025369">
+                        <div class="gr_custom_book_container_1764025369">
+                            <a title="A Clockwork Orange" rel="nofollow"
+                                href="https://www.goodreads.com/review/show/4061702116?utm_medium=api&amp;utm_source=custom_widget"><img
+                                    alt="A Clockwork Orange" border="0"
+                                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549260060l/41817486._SX50_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_rating_1764025369">
+                            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing"
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
+                        </div>
+                        <div class="gr_custom_title_1764025369">
+                            <a rel="nofollow"
+                                href="https://www.goodreads.com/review/show/4061702116?utm_medium=api&amp;utm_source=custom_widget">A
+                                Clockwork Orange</a>
+                        </div>
+                        <div class="gr_custom_author_1764025369">
+                            by <a rel="nofollow"
+                                href="https://www.goodreads.com/author/show/5735.Anthony_Burgess">Anthony Burgess</a>
+                        </div>
+                    </div>
+                    <div class="gr_custom_each_container_1764025369">
+                        <div class="gr_custom_book_container_1764025369">
+                            <a title="The Old Man and the Sea" rel="nofollow"
+                                href="https://www.goodreads.com/review/show/6097018577?utm_medium=api&amp;utm_source=custom_widget"><img
+                                    alt="The Old Man and the Sea" border="0"
+                                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1329189714l/2165._SY75_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_rating_1764025369">
+                            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing"
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
+                        </div>
+                        <div class="gr_custom_title_1764025369">
+                            <a rel="nofollow"
+                                href="https://www.goodreads.com/review/show/6097018577?utm_medium=api&amp;utm_source=custom_widget">The
+                                Old Man and the Sea</a>
+                        </div>
+                        <div class="gr_custom_author_1764025369">
+                            by <a rel="nofollow"
+                                href="https://www.goodreads.com/author/show/1455.Ernest_Hemingway">Ernest Hemingway</a>
+                        </div>
+                    </div>
+                    <div class="gr_custom_each_container_1764025369">
+                        <div class="gr_custom_book_container_1764025369">
+                            <a title="The Sailor Who Fell from Grace with the Sea" rel="nofollow"
+                                href="https://www.goodreads.com/review/show/3898600863?utm_medium=api&amp;utm_source=custom_widget"><img
+                                    alt="The Sailor Who Fell from Grace with the Sea" border="0"
+                                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327629352l/162332._SY75_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_rating_1764025369">
+                            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing"
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
+                        </div>
+                        <div class="gr_custom_title_1764025369">
+                            <a rel="nofollow"
+                                href="https://www.goodreads.com/review/show/3898600863?utm_medium=api&amp;utm_source=custom_widget">The
+                                Sailor Who Fell from Grace with the Sea</a>
+                        </div>
+                        <div class="gr_custom_author_1764025369">
+                            by <a rel="nofollow" href="https://www.goodreads.com/author/show/35258.Yukio_Mishima">Yukio
+                                Mishima</a>
+                        </div>
+                    </div>
+                    <div class="gr_custom_each_container_1764025369">
+                        <div class="gr_custom_book_container_1764025369">
+                            <a title="Seven Years in Tibet" rel="nofollow"
+                                href="https://www.goodreads.com/review/show/6746235277?utm_medium=api&amp;utm_source=custom_widget"><img
+                                    alt="Seven Years in Tibet" border="0"
+                                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388251499l/270032._SY75_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_rating_1764025369">
+                            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing"
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
+                        </div>
+                        <div class="gr_custom_title_1764025369">
+                            <a rel="nofollow"
+                                href="https://www.goodreads.com/review/show/6746235277?utm_medium=api&amp;utm_source=custom_widget">Seven
+                                Years in Tibet</a>
+                        </div>
+                        <div class="gr_custom_author_1764025369">
+                            by <a rel="nofollow"
+                                href="https://www.goodreads.com/author/show/38329.Heinrich_Harrer">Heinrich Harrer</a>
+                        </div>
+                    </div>
+                    <div class="gr_custom_each_container_1764025369">
+                        <div class="gr_custom_book_container_1764025369">
+                            <a title="Lolita" rel="nofollow"
+                                href="https://www.goodreads.com/review/show/6239947925?utm_medium=api&amp;utm_source=custom_widget"><img
+                                    alt="Lolita" border="0"
+                                    src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377756377l/7604._SY75_.jpg" /></a>
+                        </div>
+                        <div class="gr_custom_rating_1764025369">
+                            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing"
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt=""
+                                    src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
+                        </div>
+                        <div class="gr_custom_title_1764025369">
+                            <a rel="nofollow"
+                                href="https://www.goodreads.com/review/show/6239947925?utm_medium=api&amp;utm_source=custom_widget">Lolita</a>
+                        </div>
+                        <div class="gr_custom_author_1764025369">
+                            by <a rel="nofollow"
+                                href="https://www.goodreads.com/author/show/5152.Vladimir_Nabokov">Vladimir Nabokov</a>
+                        </div>
+                    </div>
+                    <br style="clear: both" />
+                    <center>
+                        <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0"
+                                src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
+                    </center>
+                    <noscript>
+                        Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with
+                        Adam, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on
+                        Goodreads.
+                    </noscript>
+                </div>
+
+            </div>
+            <script
+                src="https://www.goodreads.com/review/custom_widget/128992373.Adam's%20Favourites?cover_position=left&cover_size=small&num_books=5&order=d&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=0&show_tags=1&show_title=1&sort=rating&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1764025369&widget_text_color=000000&widget_title_size=medium&widget_width=medium"
+                type="text/javascript" charset="utf-8"></script>
+
+            <div class="section-header">
+                <span class="mono">/// STREET PHOTOGRAPHY ASSET PREVIEW</span>
+            </div>
+
+            <div class="gallery-preview">
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763143047000_R0008441.JPG" alt="Street 1">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/1763305030000_R0008656.JPG" alt="Street 2">
+                </div>
+                <div class="gallery-item-preview">
+                    <img src="assets/images/R0008722.JPG" alt="Street 3">
+                </div>
+            </div>
+
+            <div class="gallery-cta">
+                <a href="gallery.html">VIEW FULL ARCHIVE [ 18 ASSETS ]</a>
+            </div>
+
+
+            <div class="section-header">
+                <span class="mono">/// GEOGRAPHIC TRAVERSAL RECORD (37 COUNTRIES)</span>
+            </div>
+
+            <div class="travel-grid-container">
+                <div id="travel-country-grid">
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
